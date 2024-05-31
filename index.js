@@ -19,7 +19,9 @@ if(process.env.PORT){
     PORT = process.env.PORT
 }
 
-mongoose.connect("mongodb+srv://Pooja:xqUCdsabefMIqbAf@mern-estate.0kbe7wk.mongodb.net/?retryWrites=true&w=majority&appName=mern-estate");
+
+
+mongoose.connect("mongodb+srv://sahil:tTrdc84h27pkeDZD@mern-estate.0kbe7wk.mongodb.net/?retryWrites=true&w=majority&appName=mern-estate");
 app.listen(PORT, () =>  //it is used to start the server
 {
     console.log("server is running");
